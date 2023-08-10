@@ -1,7 +1,6 @@
 import sys
-from io import StringIO
-
 from behave import given, when, then
+from io import StringIO
 from tallerTodo_list.task_controller import TaskController
 
 # Create a shared context for scenarios
